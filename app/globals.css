@@ -19,6 +19,7 @@
   }
 }
 
+
 header{
     display: flex;
     flex-direction: row;
@@ -40,6 +41,31 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+    --sb-track-color: #949494;
+    --sb-thumb-color: #565f5b;
+    --sb-size: 10px;
+}
+
+body::-webkit-scrollbar {
+    width: var(--sb-size)
+}
+
+body::-webkit-scrollbar-track {
+    background: var(--sb-track-color);
+    border-radius: 11px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: var(--sb-thumb-color);
+    border-radius: 11px;
+
+}
+
+@supports not selector(::-webkit-scrollbar) {
+    body {
+        scrollbar-color: var(--sb-thumb-color)
+        var(--sb-track-color);
+    }
 }
 footer {
     height: 70px;
