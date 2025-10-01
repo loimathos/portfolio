@@ -24,11 +24,31 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
+    <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        {children}
-      </body>
+    >
+    <header className="px-8">
+        <div className="flex flex-row w-full items-center">
+            <img className="rounded-full border-2 border-white" src="/img/profile_picture.jpg" alt="Logo"/>
+            <h1 className="px-7">Mathis KIENE</h1>
+        </div>
+        <div className="flex w-full items-center flex-row-reverse">
+            <nav className="flex items-center w-[-webkit-fill-available] justify-between">
+                <a href="/">Home</a>
+                <a href="/about">About</a>
+                <a href="/projects">Projects</a>
+                <a href="https://loimathos.github.io/CVmathiskieneepitechdigitalresume/">CV</a>
+                <a href="/contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+    {children}
+    <footer>
+        <h6>KIENE Mathis | 2019 - today | V1.20</h6>
+        <p className="textdubas">Made with love, passions and some white monster <br/>
+        </p>
+    </footer>
+    </body>
     </html>
   );
 }
