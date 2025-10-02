@@ -5,10 +5,14 @@ export default function Home() {
   return (
     <div className="font-sans p-10 ">
       <main className="">
-          <Windows>
-              <p>tyuygiuhpjouyitudfcvbh_yètç-_fty ytfdrycivuyigè-(èdrcyfghbiygofutrycvgyt-ftcgvuhytifuychgjvhkgjyftdcgvhukyfjthcgvhgfyjghcv ft </p>
+          <Windows title="oui">
+              <p>tyuygiuhpjouyitudfcvbh_yètç-_fty ytfdrycivuyigè-(èdrcyfghbiygofutrycvgyt-ftcgvuhytifuychgjvhkgjyftdcgvhukyfjthcgvhgfyjghcv ft<br/>efbigfye <br/>fbhikvs</p>
           </Windows>
-
+          <Windows title="Compétences technique">
+              iofb
+              fezo<br/>
+              efnoufn
+          </Windows>
       </main>
     </div>
   );

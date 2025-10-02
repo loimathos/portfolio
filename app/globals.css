@@ -24,8 +24,7 @@ header{
     display: flex;
     flex-direction: row;
     border-bottom: 2px solid #cccccc;
-    background: #393939;
-    color: rgba(192,192,192);
+    color: #FEDFD4;
 }
 header img{
     width: 100px;
@@ -38,7 +37,7 @@ header a{
 }
 
 body {
-  background: var(--background);
+  background: #9DCEE2;
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
     --sb-track-color: #949494;
@@ -74,7 +73,7 @@ footer {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: #393939;
+    background:#033270;
     border-top: 2px solid #cccccc;
 }
 footer h6{
@@ -84,6 +83,6 @@ footer h6{
 }
 .textdubas {
     margin: 0;
-    color: rgba(192,192,192);
+    color: #FEDFD4;
     font-size: small;
 }

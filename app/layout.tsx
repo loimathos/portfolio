@@ -27,12 +27,12 @@ export default function RootLayout({
     <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
     >
-    <header className="px-8">
-        <div className="flex flex-row w-full items-center">
+    <header className="px-8 bg-[#033270]  ">
+            <div className="flex flex-row w-full items-center">
             <img className="rounded-full border-2 border-white" src="/img/profile_picture.jpg" alt="Logo"/>
             <h1 className="px-7">Mathis KIENE</h1>
         </div>
-        <div className="flex w-full items-center flex-row-reverse">
+        <div className="flex w-full items-center flex-row-reverse]">
             <nav className="flex items-center w-[-webkit-fill-available] justify-between">
                 <a href="/">Home</a>
                 <a href="/about">About</a>
