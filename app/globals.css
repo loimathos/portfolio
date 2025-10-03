@@ -60,6 +60,37 @@ body::-webkit-scrollbar-thumb {
 
 }
 
+@keyframes myAnim_opening {
+    0% {
+        transform: scale(1);
+        transform-origin: 0% 50%;
+    }
+
+    100% {
+        transform: scale(0.1);
+        transform-origin: 0% 50%;
+    }
+}
+.opening{
+    animation: myAnim_opening 500ms ease 0s 1 reverse backwards;
+}
+
+@keyframes closing_animation {
+    0% {
+        transform: scale(1);
+        transform-origin: 0% 50%;
+    }
+
+    100% {
+        transform: scale(0.1);
+        transform-origin: 0% 50%;
+    }
+}
+
+.closing {
+    animation: closing_animation 501ms ease 0s 1 normal backwards;
+}
+
 @supports not selector(::-webkit-scrollbar) {
     body {
         scrollbar-color: var(--sb-thumb-color)
